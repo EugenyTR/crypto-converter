@@ -12,10 +12,10 @@ const useStyles = makeStyles((theme: Theme) =>
         },
         cryptoInputBox: {
             marginBottom: 20,
-            marginTop: 20
+            marginTop: 20,
         },
         currencyInput: {
-            minWidth: 'calc(70% - 10)',
+            minWidth: 'calc(70% - 10px)',
             marginRight: 10,
         },
         currencyType: {
@@ -27,7 +27,16 @@ const useStyles = makeStyles((theme: Theme) =>
         currencyIcon: {
             width: 18,
             height: 18,
-            borderRadius: 30
+            borderRadius: 30,
+        },
+        redColumn: {
+            backgroundColor: '#d8ffc4',
+        },
+        greenColumn: {
+            backgroundColor: '#ffdada',
+        },
+        rowCurrency: {
+            cursor: 'pointer',
         },
     }),
 );
